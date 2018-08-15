@@ -1,0 +1,4 @@
+<view class="header"></view>
+<template name="item">
+  <text class='item_text'>{{text}}</text>
+</template>

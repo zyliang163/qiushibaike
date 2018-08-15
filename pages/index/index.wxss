@@ -1,0 +1,36 @@
+/**index.wxss**/
+page{
+    height: 100%;
+}
+.container{
+    background-color: #ffba1f;
+}
+.content{
+  
+  
+    padding-top: 60px;
+    justify-content: center;
+}
+.content view{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logo image{
+    width:  110px;
+    height: 110px;
+    
+}
+
+
+.daoyan image{
+    height: 60px;
+}
+
+
+.begin image{
+    width:  81px;
+    height: 48px;
+    padding-top: 80px;
+}

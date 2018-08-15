@@ -1,0 +1,57 @@
+{
+    "pages": [
+        "pages/text/text",
+        "pages/content/content",
+        "pages/test11/test11",
+        "pages/jingxuan/jingxuan",
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/video/video",
+        "pages/img/img",
+        "pages/me/me"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ffba1f",
+        "navigationBarTitleText": "",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/jingxuan/jingxuan",
+                "text": "精选",
+                "iconPath": "/images/bb.png",
+                "selectedIconPath": "/images/bbs.png"
+            },
+            {
+                "pagePath": "pages/video/video",
+                "text": "视频",
+                "iconPath": "/images/video.png",
+                "selectedIconPath": "/images/videos.png"
+            },
+            {
+                "pagePath": "pages/text/text",
+                "text": "文字",
+                "iconPath": "/images/font.png",
+                "selectedIconPath": "/images/fonts.png"
+            },
+            {
+                "pagePath": "pages/img/img",
+                "text": "图片",
+                "iconPath": "/images/img.png",
+                "selectedIconPath": "/images/imgs.png"
+            },
+            {
+                "pagePath": "pages/me/me",
+                "text": "我",
+                "iconPath": "/images/me.png",
+                "selectedIconPath": "/images/mes.png"
+            }
+        ],
+        "borderStyle": "white",
+        "backgroundColor": "#ffffff",
+        "color": "#d0d1d2",
+        "selectedColor": "#ffba1f"
+    }
+}

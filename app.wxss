@@ -1,0 +1,57 @@
+/**app.wxss**/
+.container {
+   height: 100%;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box; */
+} 
+
+.list-text{
+    padding: 15px;
+}
+.author{
+    display: flex;
+    align-items: center;
+}
+.author image{
+    width: 15%;
+    border-radius: 50%;
+}
+.author text{
+    padding-left: 15px;
+    font-size: 16px;
+}
+.content{
+    padding: 8px 0;
+}
+.content text{
+    font-size: 14px;
+    color: #636251;
+    padding: 6px 0;
+    display: flex;
+    line-height: 1.8em;
+}
+
+.comment.text text{
+        font-size: 16px;
+        color: #969696;
+        padding-right: 10px;
+}
+.partl image{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+}
+.partr image{
+    width: 25px;
+    height: 25px;
+}
+
+.comment.img{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,129 @@
+<!--pages/text/text.wxml-->
+<view class='container'>
+    <view class='list-text'>
+        <view class='author'>
+            <image mode='widthFix' src='{{content.face}}'></image>
+            <text>{{content.name}}</text>
+        </view>
+        <view class='content'>
+            <text>{{content.content}}</text>
+        </view>
+        <view class='comment.text'>
+            <text>奸笑 {{content.good_nums}}</text>
+            <text>.</text>
+            <text>评论 {{content.comment_nums}}</text>
+            <text>.</text>
+            <text>分享 {{content.share_nums}}</text>
+        </view>
+        <view class='comment.img'>
+            <view class='partl'>
+                <image src='/images/smile.png'></image>
+                <image src='/images/cry.png'></image>
+            </view>
+            <view class='partr'>
+                <image src='/images/shar.png'></image>
+                <image src='/images/dian.png'></image>
+            </view>
+        </view>
+        <view class='comment_new'>
+            <text>最新评论5条</text>
+        </view>
+        <scroll-view  scroll-y style='height:300px'>
+        <view class='comment_list'>
+            <view class='uface'>
+                <image mode='widthFix' src='/images/w1.jpg'></image>
+            </view>
+            <view class='comment_content'>
+                <view class='uname'>
+                    <text>我的名字很明干嘛</text>
+                    <image mode='widthFix' src='/images/zan.png'></image>
+                </view>
+                <view class='utext'>
+                    <text>能不能好好说话了</text>
+                </view>
+                <view class='uother'>
+                    <text>27分钟前</text>
+                    <text>4楼</text>
+                </view>
+            </view>
+        </view>
+        <view class='comment_list'>
+            <view class='uface'>
+                <image mode='widthFix' src='/images/w1.jpg'></image>
+            </view>
+            <view class='comment_content'>
+                <view class='uname'>
+                    <text>我的名字很明干嘛</text>
+                    <image mode='widthFix' src='/images/zan.png'></image>
+                </view>
+                <view class='utext'>
+                    <text>能不能好好说话了</text>
+                </view>
+                <view class='uother'>
+                    <text>27分钟前</text>
+                    <text>4楼</text>
+                </view>
+            </view>
+        </view>
+        <view class='comment_list'>
+            <view class='uface'>
+                <image mode='widthFix' src='/images/w1.jpg'></image>
+            </view>
+            <view class='comment_content'>
+                <view class='uname'>
+                    <text>我的名字很明干嘛</text>
+                    <image mode='widthFix' src='/images/zan.png'></image>
+                </view>
+                <view class='utext'>
+                    <text>能不能好好说话了</text>
+                </view>
+                <view class='uother'>
+                    <text>27分钟前</text>
+                    <text>4楼</text>
+                </view>
+            </view>
+        </view>
+        <view class='comment_list'>
+            <view class='uface'>
+                <image mode='widthFix' src='/images/w1.jpg'></image>
+            </view>
+            <view class='comment_content'>
+                <view class='uname'>
+                    <text>我的名字很明干嘛</text>
+                    <image mode='widthFix' src='/images/zan.png'></image>
+                </view>
+                <view class='utext'>
+                    <text>能不能好好说话了</text>
+                </view>
+                <view class='uother'>
+                    <text>27分钟前</text>
+                    <text>4楼</text>
+                </view>
+            </view>
+        </view>
+        <view class='comment_list'>
+            <view class='uface'>
+                <image mode='widthFix' src='/images/w1.jpg'></image>
+            </view>
+            <view class='comment_content'>
+                <view class='uname'>
+                    <text>我的名字很明干嘛</text>
+                    <image mode='widthFix' src='/images/zan.png'></image>
+                </view>
+                <view class='utext'>
+                    <text>能不能好好说话了</text>
+                </view>
+                <view class='uother'>
+                    <text>27分钟前</text>
+                    <text>4楼</text>
+                </view>
+            </view>
+        </view>
+        </scroll-view>
+        <view class='comment_area'>
+            <image class="img1" src='/images/pic.png'></image>
+            <input type='text' placeholder='说些什么吧~' placeholder-class='pinput'></input>
+            <image class="img1" src='/images/send.png'></image>
+        </view>
+    </view>
+</view>

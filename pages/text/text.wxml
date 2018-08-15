@@ -1,0 +1,31 @@
+<!--pages/text/text.wxml-->
+<view class='container'>
+<view class='list-text' wx:for='{{content}}' wx:for-item="itemx" wx:key="share_nums">
+        <view class='author'>
+            <image mode='widthFix' src='{{itemx.face}}'></image>
+            <text>{{itemx.name}}|{{share_nums.key}}</text>
+        </view>
+        <view class='content'>
+        <navigator url='../content/content?id=2&type=1'><text>{{itemx.content}}</text></navigator>
+        </view>
+        <view class='comment.text'>
+            <text>奸笑 {{itemx.good_nums}}</text>
+            <text>.</text>
+            <text>评论 {{itemx.comment_nums}}</text>
+            <text>.</text>
+            <text>分享 {{itemx.share_nums}}</text>
+        </view>
+        <view class='comment.img'>
+            <view class='partl'>
+                <image src='/images/smile.png'></image>
+                <image src='/images/cry.png'></image>
+                <image src='/images/comment.png'></image>
+            </view>
+            <view class='partr'>
+                <image src='/images/shar.png'></image>
+                <image src='/images/dian.png'></image>
+            </view>
+        </view>
+</view>
+
+</view>
